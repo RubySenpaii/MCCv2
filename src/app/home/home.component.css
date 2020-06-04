@@ -1,0 +1,81 @@
+.pull-right {
+    text-align: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 7%;
+}
+
+.header.title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 66px;
+    margin-bottom: 0;
+}
+
+.header.description {
+    font-weight: 100;
+    font-size: 36px;
+    line-height: 49px;
+}
+
+.course {
+    font-family: 'Avenir';
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 55px;
+    color: #1c1c1c;
+    text-align: center;
+    margin: 40px 0 30px;
+}
+
+.course.title {
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin: 20px 0 30px;
+}
+
+.course.description {
+    font-family: 'Open Sans';
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: justify;
+    letter-spacing: -0.03em;
+    color: #666666;
+    margin: 0 33px;
+}
+
+.footer.title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    color: #1c1c1c;
+}
+
+.footer.description {
+    font-family: 'Open Sans';
+    font-size: 18px;
+    line-height: 25px;
+    text-align: justify;
+    letter-spacing: -0.03em;
+    color: #666666;
+}
+
+a.full-width {
+    margin: 30px 0 40px;
+}
+
+.btn-secondary {
+    margin-bottom: 70px;
+}
+
+.footer-description {
+    margin-top: 8%;
+}
+
+.footer.description {
+    margin-right: 100px;
+}

@@ -1,0 +1,38 @@
+[
+    {
+      "Question": "I'm new to programming, where do I start?",
+      "Answer": "Depending on your age, we suggest starting with either the Jr. Developer or Programming 1 program. The Jr. Developer course is ideal for students with limited background in mathematics, as the program focuses on logic formulation. For students of a slightly mature age group, we recommend the Programming 1 course, which begins with C programming."
+    },
+    {
+      "Question": "Where can I get a copy of the software, would I need to buy them before starting?",
+      "Answer": "In our courses, we only use software which are either open-source (free to use) or have free trials. The length of the trial is enough for the duration of the program."
+    },
+    {
+      "Question": "I don't see the course I am interested at in your catalog. Do you offer special programs?",
+      "Answer": "The Manila Coding Camp has a number of professionals with various industry experience. If the program you wish to study is not on our list, just send us an email and we can talk about matching you with one of our industry mentors. Special programs shall fall under the 1-on-1 class rates."
+    },
+    {
+      "Question": "How many students are there in a class?",
+      "Answer": "For group classes, we can accomodate a maximum of three (3) students. We want to ensure that the needs of each student are attended to, thus we do not recommend more than 3 students."
+    },
+    {
+      "Question": "My schedule doesn't fit into any of your offered programs. Could we open a special class?",
+      "Answer": "1-on-1 classes can be openned by appointment, depending on both the student's and mentor's availability. For group classes, we can open one with a minimum of two students per class."
+    },
+    {
+      "Question": "What are your modes of payment?",
+      "Answer": "We accept payment via bank transfer (BPI, BDO, EastWest, Metrobank, ING, and CIMB), GCash, 711 Payment (via CIMB QR Code), and credit/debit card."
+    },
+    {
+      "Question": "Do you accept students outside of the country?",
+      "Answer": "We accept students of different timezones. Just send us an email and we can schedule a class based on your timezone."
+    },
+    {
+      "Question": "Do you offer corporate training?",
+      "Answer": "We accept corporate trainings. A couple of our mentors are industry lecturers who teach in universities and even professional classes. For inquiries, you can email us at contact@manilacoding.com"
+    },
+    {
+      "Question": "What makes you different from other coding schools or from studying on my own online?",
+      "Answer": "While we do believe that anything can be learned online, our mentors are equipped with both the educational and professional experience needed in teaching you techniques, which you may not learn elsewhere. We do not employ students to mentor, but only those with professional experience."
+    }
+   ]

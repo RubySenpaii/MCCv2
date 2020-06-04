@@ -1,0 +1,31 @@
+.footer{
+    background-color: #37bad7;
+}
+
+.left {
+    text-align: left;
+    margin: auto;
+}
+
+p {
+    font-size: 14px;
+    line-height: 19px;
+    margin: 0;
+}
+
+.title {
+    font-weight: 600;
+}
+
+.right {
+    text-align: right;
+}
+
+.right img {
+    margin-left: 6px;
+}
+
+.row {
+    padding-top: 41px;
+    padding-bottom: 50px;
+}

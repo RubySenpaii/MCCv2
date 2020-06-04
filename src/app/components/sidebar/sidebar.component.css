@@ -1,0 +1,11 @@
+.nav-link.dropdown {
+    display: none;
+}
+
+.nav-link.dropdown.show {
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+}

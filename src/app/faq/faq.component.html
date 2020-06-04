@@ -1,0 +1,47 @@
+<div class="main-content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <img class="image-bg" src="../../assets/img/faq.png">
+                <div class="header-description">
+                    <p class="title image">FAQs</p>
+                </div>
+            </div>
+        </div>
+        <div class="white-bg" style="padding-top: 50px">
+            <div class="row">
+                <div class="col-6">
+                    <p class="title header">How can we help?</p>
+                </div>
+                <div class="col-2"></div>
+                <div class="col-4" style="text-align: right;">
+                    <mat-form-field appearance="outline" class="search-header">
+                      <mat-label>Search</mat-label>
+                      <input matInput placeholder="Placeholder">
+                      <mat-icon matSuffix>search</mat-icon>
+                    </mat-form-field>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <mat-accordion>
+                        <mat-expansion-panel *ngFor="let data of faqList" (opened)="panelOpenState = true"
+                            (closed)="panelOpenState = false">
+                            <mat-expansion-panel-header>
+                                <mat-panel-title>
+                                    {{data.Question}}
+                                </mat-panel-title>
+                            </mat-expansion-panel-header>
+                            {{data.Answer}}
+                        </mat-expansion-panel>
+                    </mat-accordion>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <p class="feedback">Didn't find what you were looking for? <a href="">Send us a message</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

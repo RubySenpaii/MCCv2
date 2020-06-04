@@ -1,0 +1,54 @@
+.header-description {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.title.image {
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 98px;
+    letter-spacing: -0.03em;
+    color: #ffffff;
+}
+
+.reach-us {
+    background-color: #FBC012;
+    border-radius: 6px 0 0 6px;
+    height: 100%;
+}
+
+.pd-30 {
+    padding: 30px;
+}
+
+.feedback {
+    padding-top: 30px;
+    padding-right: 45px;
+    padding-bottom: 30px;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 55px;
+    color: #1c1c1c;
+}
+
+.description {
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    color: #ffffff;
+}
+
+.description img {
+    margin-right: 8px;
+}
+
+.mail {
+    margin-left: 14px;
+}

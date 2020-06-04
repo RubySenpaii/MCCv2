@@ -1,0 +1,88 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: "Avenir";
+    src: url('assets/fonts/Avenir-Light-07.ttf');
+    font-weight: 100;
+    font-size: normal;
+}
+  
+@font-face {
+    font-family: "Avenir";
+    src: url('assets/fonts/Avenir-Book-01.ttf');
+    font-weight: 200;
+    font-size: normal;
+}
+  
+@font-face {
+    font-family: "Avenir";
+    src: url('assets/fonts/Avenir-Roman-12.ttf');
+    font-weight: 300;
+    font-size: normal;
+}
+  
+@font-face {
+    font-family: "Avenir";
+    src: url('assets/fonts/Avenir-Medium-09.ttf');
+    font-weight: 400;
+    font-size: normal;
+}
+  
+@font-face {
+    font-family: "Avenir";
+    src: url('assets/fonts/Avenir-Heavy-05.ttf');
+    font-weight: 500;
+    font-size: normal;
+}
+  
+@font-face {
+    font-family: "Avenir";
+    src: url('assets/fonts/Avenir-Black-03.ttf');
+    font-weight: 600;
+    font-size: normal;
+}
+
+.container-fluid {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.image-bg {
+    width: calc(100% + 220px);
+    margin-left: -110px;
+    margin-right: -110px;
+    margin-top: -30px;
+}
+
+.white-bg {
+    background-color: white;
+    width: calc(100% + 220px);
+    margin-left: -110px;
+    margin-right: -110px;
+    padding: 0 110px;
+}
+
+.header, .title, .footer {
+    font-family: 'Avenir';
+    color: #ffffff;
+}
+
+a {
+    font-family: 'Avenir';
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    color: #1c1c1c;
+    text-transform: uppercase;
+    text-decoration-line: underline;
+}
+
+a.full-width {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
+button {
+    font-family: 'Avenir';
+}

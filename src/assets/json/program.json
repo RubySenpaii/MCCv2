@@ -1,0 +1,146 @@
+[
+  {
+    "ProgramName": "Coding Cadet 1 - Scratch",
+    "ProgramType": "Beginner",
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+    "Days": 5,
+    "HoursPerDay": 2,
+    "StartDate": "June 8"
+  },
+  {
+    "ProgramName": "Coding Cadet 2 - Scratch",
+    "ProgramType": "Beginner",
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+    "Days": 5,
+    "HoursPerDay": 2,
+    "StartDate": "June 8"
+  },
+  {
+    "ProgramName": "Game Dev 1 - Scratch",
+    "ProgramType": "Beginner",
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+    "Days": 5,
+    "HoursPerDay": 2,
+    "StartDate": "June 8"
+  },
+  {
+    "ProgramName": "Game Dev 2 - Unity",
+    "ProgramType": "Intermediate",
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+    "Days": 5,
+    "HoursPerDay": 2,
+    "StartDate": "June 8"
+  },
+  {
+    "ProgramName": "Game Dev 3 - Unity",
+    "ProgramType": "Intermediate",
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+    "Days": 5,
+    "HoursPerDay": 2,
+    "StartDate": "June 8"
+  },
+  {
+    "ProgramName": "Coding 1 - C++",
+    "ProgramType": "Intermediate",
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+    "Days": 5,
+    "HoursPerDay": 2,
+    "StartDate": "June 8"
+  },
+  {
+    "ProgramName": "Coding 2 - C#",
+    "ProgramType": "Intermediate",
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+    "Days": 5,
+    "HoursPerDay": 2,
+    "StartDate": "June 8"
+  },
+  {
+    "ProgramName": "Web Dev 1 - HTML",
+    "ProgramType": "Intermediate",
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+    "Days": 5,
+    "HoursPerDay": 2,
+    "StartDate": "June 8"
+  },
+  {
+    "ProgramName": "Web Dev 2 - PHP/.NET",
+    "ProgramType": "Intermediate",
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+    "Days": 5,
+    "HoursPerDay": 2,
+    "StartDate": "June 8"
+  },
+  {
+    "ProgramName": "Design 1 - Photoshop",
+    "ProgramType": "Intermediate",
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+    "Days": 5,
+    "HoursPerDay": 2,
+    "StartDate": "June 8"
+  },
+  {
+    "ProgramName": "App Dev 1 - Android Studio",
+    "ProgramType": "Advanced",
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+    "Days": 5,
+    "HoursPerDay": 2,
+    "StartDate": "June 8"
+  },
+  {
+    "ProgramName": "App Dev 2 - Android Studio",
+    "ProgramType": "Advanced",
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+    "Days": 5,
+    "HoursPerDay": 2,
+    "StartDate": "June 8"
+  },
+  {
+    "ProgramName": "Data Explorer 1 - Python",
+    "ProgramType": "Advanced",
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+    "Days": 5,
+    "HoursPerDay": 2,
+    "StartDate": "June 8"
+  },
+  {
+    "ProgramName": "Data Explorer 2 - Python",
+    "ProgramType": "Advanced",
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+    "Days": 5,
+    "HoursPerDay": 2,
+    "StartDate": "June 8"
+  },
+  {
+    "ProgramName": "Data Explorer 3 - Python",
+    "ProgramType": "Advanced",
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+    "Days": 5,
+    "HoursPerDay": 2,
+    "StartDate": "June 8"
+  },
+  {
+    "ProgramName": "Design 2 - Photoshop",
+    "ProgramType": "Advanced",
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+    "Days": 5,
+    "HoursPerDay": 2,
+    "StartDate": "June 8"
+  },
+  {
+    "ProgramName": "Web Design 1",
+    "ProgramType": "Advanced",
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+    "Days": 5,
+    "HoursPerDay": 2,
+    "StartDate": "June 8"
+  },
+  {
+    "ProgramName": "3D Modeling",
+    "ProgramType": "Advanced",
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+    "Days": 5,
+    "HoursPerDay": 2,
+    "StartDate": "June 8"
+  }
+ ]

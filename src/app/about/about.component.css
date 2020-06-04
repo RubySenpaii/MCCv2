@@ -1,0 +1,82 @@
+.header-description {
+    position: absolute;
+    bottom: 0;
+    right: left;
+    width: 100%;
+}
+
+.header.title {
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 98px;
+    letter-spacing: -0.03em;
+    margin-bottom: 9%;
+}
+
+.header.description {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 55px;
+    text-align: right;
+    letter-spacing: -0.03em;
+}
+
+.about {
+    font-size: 18px;
+    line-height: 25px;
+    text-align: justify;
+    letter-spacing: -0.03em;
+    color: #666666;
+}
+
+.header-title {
+    font-family: 'Avenir';
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    color: #1c1c1c;
+    text-align: center;
+}
+
+.virtues {
+    text-align: center;
+}
+
+.virtues.title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 16px;
+}
+
+.virtues.description {
+    font-size: 18px;
+    line-height: 25px;
+    text-align: justify;
+    letter-spacing: -0.03em;
+    color: #999999;
+}
+
+.footer.title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    color: #1c1c1c;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    margin-top: 6%;
+}
+
+.footer.description {
+    font-family: 'Open Sans';
+    font-size: 18px;
+    line-height: 25px;
+    text-align: justify;
+    letter-spacing: -0.03em;
+    color: #666666;
+    padding: 0 150px;
+}
