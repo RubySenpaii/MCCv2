@@ -1,0 +1,17 @@
+<div class="card">
+    <div class="card-body">
+        <p class="title">{{program.ProgramName}}</p>
+        <p class="date"><img src="../../../assets/img/sun.png"> {{program.Days}} days
+            <img src="../../../assets/img/time.png"> {{program.HoursPerDay}} hrs per day</p>
+        <p class="description">{{program.Description}}</p>
+    </div>
+    <div class="card-footer">
+        <div>
+            <span class="type"
+                [ngClass]="program.ProgramType == 'Beginner'? 'beginner' : program.ProgramType == 'Intermediate'? 'intermediate' : 'advanced'">{{program.ProgramType}}</span>
+            <span class="start">Starts on {{program.Schedule[0].StartDate}}</span>
+        </div>
+        <hr>
+        <a class="full-width" href="javascript:void(0)" (click)="showDetails(program)">View Full Details</a>
+    </div>
+</div>

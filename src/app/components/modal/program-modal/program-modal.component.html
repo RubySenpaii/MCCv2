@@ -1,0 +1,29 @@
+<div class="card-body">
+    <div>
+        <span class="title">{{data.ProgramName}}</span>
+        <span class="type"
+            [ngClass]="data.ProgramType == 'Beginner'? 'beginner' : data.ProgramType == 'Intermediate'? 'intermediate' : 'advanced'">{{data.ProgramType}}</span>
+    </div>
+    <div style="margin-bottom: 24px;">
+        <p class="date"><img src="../../../assets/img/sun.png"> {{data.Days}} days
+            <img src="../../../assets/img/time.png"> {{data.HoursPerDay}} hrs per day</p>
+        <span class="start">Starts on {{data.Schedule[0].StartDate}}</span>
+    </div>
+    <p class="title">Course Overview</p>
+    <p class="description">{{data.Description}}</p>
+    <p class="title">Tools</p>
+    <p class="description">{{data.Tools}}</p>
+    <div>
+        <p class="title">Available Schedule</p>
+        <button class="btn-blue-secondary" *ngFor="let time of data.Schedule[0].TimeSlot">{{time.StartTime}}</button>
+    </div>
+</div>
+<div class="card-footer">
+    <div class="col-6" style="margin-top: 21px">
+        <a href="javacript:void(0)" (click)="closeDialog()">Close</a>
+    </div>
+    <div class="col-6" style="text-align: right;">
+        <a (click)="showInquiryDialog()" href="javacript:void(0)" style="margin-right: 24px;">Inquire</a>
+        <button class="btn btn-round btn-primary">Enroll now</button>
+    </div>
+</div>

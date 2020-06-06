@@ -1,1 +1,31 @@
-<p>program works!</p>
+<div class="main-content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-6">
+                <p class="title header">How can we help?</p>
+            </div>
+            <div class="col-2"></div>
+            <div class="col-4" style="text-align: right;">
+                <mat-form-field appearance="outline" class="search-header">
+                    <mat-label>Search</mat-label>
+                    <input matInput placeholder="Placeholder">
+                    <mat-icon matSuffix>search</mat-icon>
+                </mat-form-field>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <mat-tab-group>
+                    <mat-tab *ngFor="let programLevel of programLevels" label="{{programLevel}} Course">
+                        <app-program-list *ngIf="!loading" [programLevel]="programLevel" [programList]="programList"></app-program-list>
+                    </mat-tab>
+                </mat-tab-group>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <p class="feedback">Didn't find what you were looking for? <a href="">Send us a message</a></p>
+            </div>
+        </div>
+    </div>
+</div>

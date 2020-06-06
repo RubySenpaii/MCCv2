@@ -1,0 +1,13 @@
+.feedback {
+    font-size: 14px;
+    line-height: 120%;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.header.title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    color: #1c1c1c;
+}

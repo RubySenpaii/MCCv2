@@ -86,3 +86,76 @@ a.full-width {
 button {
     font-family: 'Avenir';
 }
+
+.type {
+    font-family: 'Avenir';
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.date {
+    font-size: 12px;
+    line-height: 16px;
+    color: #999999;
+}
+
+.start {
+    font-size: 12px;
+    line-height: 16px;
+    color: #999999;
+}
+
+.beginner {
+  color: #37bad7;
+}
+
+.intermediate {
+  color: #fbc012;
+}
+
+.advanced {
+  color: #ed1651;
+}
+
+.mat-form-field-outline {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.mat-tab-label {
+    font-family: 'Avenir';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.mat-tab-label-active {
+    color: #ed1651
+}
+
+.mat-tab-group.mat-primary .mat-ink-bar {
+    background-color: #ed1651;
+}
+
+.btn-blue-secondary, .btn-blue-secondary:hover, 
+.btn-blue-secondary:focus  {
+    color: #37bad7;
+    border: 2px solid #37bad7;
+    background-color: white;
+    border-radius: 20px;
+    font-family: 'Avenir';
+    font-size: 12px;
+    line-height: 16px;
+    padding: 8px 11px;
+    margin: 8px;
+}
+
+.btn-blue-secondary:active, .btn-blue-secondary.active  {
+    color: white;
+    background-color: #37bad7;
+}

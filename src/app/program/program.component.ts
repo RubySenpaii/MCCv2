@@ -1,4 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { ProgramListComponent } from './list/list.component';
+import { FormControl } from '@angular/forms';
+import { FirebaseService } from '../services/firebase.service';
 
 @Component({
   selector: 'app-program',
@@ -6,10 +9,21 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./program.component.css']
 })
 export class ProgramComponent implements OnInit {
+  @ViewChild(ProgramListComponent) programListComponent;
+  programLevels = ['All', 'Beginner', 'Intermediate', 'Advanced'];
+  programList = [];
+  loading = true;
 
-  constructor() { }
+  constructor(private firebaseService: FirebaseService) { }
 
   ngOnInit(): void {
+    this.firebaseService.getData().subscribe((res) => {
+      res.forEach(val => {
+        this.programList.push(val.payload.doc.data())
+      })
+      this.loading = false;
+    });
+    //this.firebaseService.createData();
   }
 
 }

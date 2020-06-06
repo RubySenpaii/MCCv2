@@ -1,0 +1,40 @@
+.card-footer {
+    display: flex;
+}
+
+.type {
+    float: right;
+}
+
+.start {
+    float: right;
+}
+
+.date, .start {
+    display: inline;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.03em;
+    color: #1c1c1c;
+}
+
+p.title {
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #999999;
+    margin-bottom: 8px;
+}
+
+p.description {
+    font-size: 14px;
+    line-height: 120%;
+    text-align: justify;
+    color: #1c1c1c;
+    margin-bottom: 20px;
+}

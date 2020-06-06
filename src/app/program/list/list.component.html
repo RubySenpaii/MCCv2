@@ -1,0 +1,13 @@
+<div class="row">
+    <div class="col-6">
+        <p class="result">Showing {{filteredList.length}} results for {{programLevel}} Courses</p>
+    </div>
+    <div class="col-6">
+        <p class="sort"><img src="../../../assets/img/filter.png" style="margin-right: 5px;">Sort By</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-3 col" *ngFor="let program of filteredList">
+        <app-program-grid [program]="program"></app-program-grid>
+    </div>
+</div>

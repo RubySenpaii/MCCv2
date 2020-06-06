@@ -1,0 +1,27 @@
+.row {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.result {
+    font-size: 18px;
+    line-height: 25px;;
+    letter-spacing: -0.03em;
+    color: #1c1c1c;
+}
+
+.sort {
+    text-align: right;
+    font-family: 'Avenir';
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #1c1c1c;
+}
+
+.col {
+    padding-bottom: 30px;
+}

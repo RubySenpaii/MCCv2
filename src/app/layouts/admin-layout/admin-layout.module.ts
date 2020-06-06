@@ -8,6 +8,7 @@ import { AboutComponent } from '../../about/about.component';
 import { ContactComponent } from '../../contact/contact.component';
 import { FaqComponent } from '../../faq/faq.component';
 import { ProgramComponent } from '../../program/program.component';
+import { ProgramListComponent, ProgramGridComponent } from '../../program/list/list.component';
 import {MatButtonModule} from '@angular/material/button';
 import {MatInputModule} from '@angular/material/input';
 import {MatRippleModule} from '@angular/material/core';
@@ -16,6 +17,12 @@ import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatSelectModule} from '@angular/material/select';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {MatIconModule} from '@angular/material/icon';
+import {MatTabsModule} from '@angular/material/tabs';
+import { AngularFireModule } from '@angular/fire';
+import { AngularFireDatabaseModule } from '@angular/fire/database';
+import { AngularFirestoreModule } from '@angular/fire/firestore';
+
+import { environment } from '../../../environments/environment';
 
 @NgModule({
   imports: [
@@ -31,6 +38,10 @@ import {MatIconModule} from '@angular/material/icon';
     MatTooltipModule,
     MatExpansionModule,
     MatIconModule,
+    MatTabsModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFirestoreModule,
+    AngularFireDatabaseModule
   ],
   declarations: [
     HomeComponent,
@@ -38,6 +49,8 @@ import {MatIconModule} from '@angular/material/icon';
     ContactComponent,
     FaqComponent,
     ProgramComponent,
+    ProgramListComponent,
+    ProgramGridComponent,
   ]
 })
 

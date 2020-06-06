@@ -1,0 +1,52 @@
+<div class="card-body">
+    <div>
+        <span class="title">{{data.ProgramName}}</span>
+        <span class="type"
+            [ngClass]="data.ProgramType == 'Beginner'? 'beginner' : data.ProgramType == 'Intermediate'? 'intermediate' : 'advanced'">{{data.ProgramType}}</span>
+    </div>
+    <div style="margin-bottom: 24px;">
+        <p class="date"><img src="../../../assets/img/sun.png"> {{data.Days}} days
+            <img src="../../../assets/img/time.png"> {{data.HoursPerDay}} hrs per day</p>
+        <span class="start">Starts on {{data.Schedule[0].StartDate}}</span>
+    </div>
+    <p class="title">Course Overview</p>
+    <p class="description">{{data.Description}}</p>
+    <p class="title">Tools</p>
+    <p class="description">{{data.Tools}}</p>
+    <div>
+        <p class="title">Available Schedules</p>
+        <p class="description">--</p>
+    </div>
+    <div>
+        <p class="title">Inquiry</p>
+        <mat-form-field appearance="outline" style="width: 49%; margin-right: 2%;">
+            <mat-label>Name</mat-label>
+            <input matInput placeholder="Juan Dela Cruz">
+        </mat-form-field>
+        <mat-form-field appearance="outline" style="width: 49%;">
+            <mat-label>Email</mat-label>
+            <input matInput placeholder="juan.dela.cruz@gmail.com">
+        </mat-form-field>
+        <mat-form-field appearance="outline" style="width: 49%; margin-right: 2%;">
+            <mat-label>Mobile Number</mat-label>
+            <input matInput placeholder="+639xxxxxxxxx">
+        </mat-form-field>
+        <mat-form-field appearance="outline" style="width: 49%;">
+            <mat-label>City</mat-label>
+            <input matInput placeholder="Metro Manila">
+        </mat-form-field>
+        <mat-form-field appearance="outline" style="width: 100%;">
+            <mat-label>Message</mat-label>
+            <textarea matInput placeholder="Enter message"></textarea>
+        </mat-form-field>
+    </div>
+</div>
+<div class="card-footer">
+    <div class="col-6" style="margin-top: 21px">
+        <a href="javacript:void(0)" (click)="closeDialog()">Close</a>
+    </div>
+    <div class="col-6" style="text-align: right;">
+        <a href="javacript:void(0)" (click)="closeDialog()" style="margin-right: 24px;">Cancel Inquirty</a>
+        <button class="btn btn-round btn-primary">Send Inquiry</button>
+    </div>
+</div>
