@@ -1,0 +1,44 @@
+.title {
+    font-weight: 600;
+    color: #1c1c1c;
+}
+
+.program.title {
+    font-size: 36px;
+    line-height: 49px;
+}
+
+.time.title {
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 15px;
+}
+
+.card-body > .title {
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.03em;
+}
+
+.card-body > .amount {
+    font-size: 40px;
+    line-height: 55px;
+}
+
+.card-body > .description {
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #999999;
+}
+
+a {
+    margin-top: 21px;
+    margin-left: 15px;
+}

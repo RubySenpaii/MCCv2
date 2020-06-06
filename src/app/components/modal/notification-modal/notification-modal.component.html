@@ -1,1 +1,7 @@
-<p>notification-modal works!</p>
+<div class="card-body">
+    <img src={{data.image}}>
+    <p class="title">{{data.title}}</p>
+    <p class="description">{{data.paragraph1}}</p>
+    <p class="description" style="margin-top: 8px;">{{data.paragraph2}}</p>
+    <button class="btn btn-round btn-primary" (click)="closeDialog()">Close</button>
+</div>

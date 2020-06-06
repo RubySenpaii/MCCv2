@@ -1,0 +1,10 @@
+{
+    "paymongo": {
+        "createIntent": "https://api.paymongo.com/v1/payment_intents",
+        "createPaymentMethod": "https://api.paymongo.com/v1/payment_methods",
+        "makePayment": "https://api.paymongo.com/v1/payment_intents/"
+    },
+    "firebase": {
+        "sendEmail": "https://us-central1-manilacodingcamp.cloudfunctions.net/sendMail"
+    }
+}

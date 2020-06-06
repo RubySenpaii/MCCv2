@@ -21,10 +21,10 @@
 </div>
 <div class="card-footer">
     <div class="col-6" style="margin-top: 21px">
-        <a href="javacript:void(0)" (click)="closeDialog()">Close</a>
+        <a href="javacript:void(0)" (click)="closeDialog()" [routerLink]="'/program'">Close</a>
     </div>
     <div class="col-6" style="text-align: right;">
         <a (click)="showInquiryDialog()" href="javacript:void(0)" style="margin-right: 24px;">Inquire</a>
-        <button class="btn btn-round btn-primary">Enroll now</button>
+        <button class="btn btn-round btn-primary" (click)="enrollPage()">Enroll now</button>
     </div>
 </div>

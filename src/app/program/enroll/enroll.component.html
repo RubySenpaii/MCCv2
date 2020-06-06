@@ -1,0 +1,91 @@
+<div class="main-content">
+    <div class="container-fluid">
+        <form autocomplete="off" [formGroup]="enrollment" (ngSubmit)="enrollmentSubmit()">
+            <div class="row">
+                <div class="col-6">
+                    <p class="title program">Enroll for {{programData.ProgramName}}</p>
+                </div>
+                <div class="col-6">
+                    <p class="title time">{{timeSlot}}</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="title">Personal Information</p>
+                            <mat-form-field appearance="outline" style="width: 32%; margin-right: 2%;">
+                                <mat-label>Name</mat-label>
+                                <input matInput placeholder="Juan Dela Cruz" formControlName="name">
+                            </mat-form-field>
+                            <mat-form-field appearance="outline" style="width: 32%; margin-right: 2%;">
+                                <mat-label>Birthday</mat-label>
+                                <input matInput placeholder="juan.dela.cruz@gmail.com" formControlName="birthday">
+                            </mat-form-field>
+                            <mat-form-field appearance="outline" style="width: 32%;">
+                                <mat-label>Mobile Number</mat-label>
+                                <input matInput placeholder="+639xxxxxxxxx" formControlName="mobileNumber">
+                            </mat-form-field>
+                            <mat-form-field appearance="outline" style="width: 32%; margin-right: 2%;">
+                                <mat-label>Email Address</mat-label>
+                                <input matInput placeholder="juan.dela.cruz@gmail.com" formControlName="email">
+                            </mat-form-field>
+                            <mat-form-field appearance="outline" style="width: 66%;">
+                                <mat-label>Home Address</mat-label>
+                                <input matInput placeholder="Street, Barangay, City" formControlName="address">
+                            </mat-form-field>
+                            <hr>
+                            <mat-form-field appearance="outline" style="width: 32%; margin-right: 2%;" *ngIf="isSelf">
+                                <mat-label>Name of Parent</mat-label>
+                                <input matInput placeholder="Juan Dela Cruz" formControlName="parent">
+                            </mat-form-field>
+                            <mat-form-field appearance="outline" style="width: 32%; margin-right: 2%;" *ngIf="isSelf">
+                                <mat-label>Mobile Number</mat-label>
+                                <input matInput placeholder="+639xxxxxxxxx" formControlName="parentMobile">
+                            </mat-form-field>
+                            <mat-form-field appearance="outline" style="width: 32%; margin-right: 2%;" *ngIf="isSelf">
+                                <mat-label>Email Address</mat-label>
+                                <input matInput placeholder="juan.dela.cruz@gmail.com" formControlName="parentEmail">
+                            </mat-form-field><br>
+                            <mat-checkbox (change)="isSelf = !isSelf">I am the student</mat-checkbox>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="title">Payment Option</p>
+                            <p class="title amount">₱ 4,000</p>
+                            <p class="title description">Amount Total</p>
+                            <mat-radio-group aria-label="Select an option" formControlName="paymentOption">
+                                <mat-radio-button style="margin-right: 20px;" value="card">Credit/Debit Card
+                                </mat-radio-button>
+                                <mat-radio-button value="ewallet" [disabled]="true">E-Wallet</mat-radio-button>
+                            </mat-radio-group><br>
+                            <mat-form-field appearance="outline" style="width: 32%; margin-right: 2%;" *ngIf="enrollment.value.paymentOption == 'card'">
+                                <mat-label>Card Number</mat-label>
+                                <input matInput placeholder="5214632598547568" formControlName="cardNumber">
+                            </mat-form-field>
+                            <mat-form-field appearance="outline" style="width: 120px; margin-right: 2%;" *ngIf="enrollment.value.paymentOption == 'card'">
+                                <mat-label>Expiration</mat-label>
+                                <input matInput placeholder="MM/YY" formControlName="expiration">
+                            </mat-form-field>
+                            <mat-form-field appearance="outline" style="width: 120px;" *ngIf="enrollment.value.paymentOption == 'card'">
+                                <mat-label>CVC</mat-label>
+                                <input matInput placeholder="123" formControlName="cvc">
+                            </mat-form-field>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <button class="btn btn-round btn-primary" type="submit">Proceed</button>
+                    <a href="">Back to Course Catalog</a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

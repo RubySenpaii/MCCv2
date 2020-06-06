@@ -1,7 +1,9 @@
 import { Injectable } from '@angular/core';
 import { AngularFirestore } from '@angular/fire/firestore';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 import programData from '../../assets/json/program.json';
+import url from '../../assets/json/url.json';
+import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -21,7 +23,8 @@ export class FirebaseService {
     return this.firestore.collection('programs').snapshotChanges();
   }
 
-  sendEmail(subject, data) {
-    return this.http.post('https://us-central1-manilacodingcamp.cloudfunctions.net/sendMail', { subject: subject, data: data });
+  sendEmail(subject, data): Observable<any> {
+    const header = new HttpHeaders().set('Content-Type', 'application/json');
+    return this.http.post(url.firebase.sendEmail, { subject: subject, data: data }, { headers: header });
   }
 }
