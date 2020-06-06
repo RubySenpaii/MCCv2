@@ -15,7 +15,8 @@
     <p class="description">{{data.Tools}}</p>
     <div>
         <p class="title">Available Schedule</p>
-        <button class="btn-blue-secondary" *ngFor="let time of data.Schedule[0].TimeSlot">{{time.StartTime}}</button>
+        <button class="btn-blue-secondary" *ngFor="let time of data.Schedule[0].TimeSlot" (click)="selectedValue = time.StartTime"
+            [disabled]="time.Slots == 0" [ngClass]="selectedValue == time.StartTime? 'active' : ''">{{time.StartTime}}</button>
     </div>
 </div>
 <div class="card-footer">

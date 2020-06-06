@@ -24,27 +24,30 @@
                     </div>
                     <div class="col-7 feedback">
                         <p class="title">Have something to say?</p>
-                        <mat-form-field appearance="outline" style="width: 49%; margin-right: 2%;">
-                            <mat-label>Name</mat-label>
-                            <input matInput placeholder="Juan Dela Cruz">
-                        </mat-form-field>
-                        <mat-form-field appearance="outline" style="width: 49%;">
-                            <mat-label>Email</mat-label>
-                            <input matInput placeholder="juan.dela.cruz@gmail.com">
-                        </mat-form-field>
-                        <mat-form-field appearance="outline" style="width: 49%; margin-right: 2%;">
-                            <mat-label>Mobile Number</mat-label>
-                            <input matInput placeholder="+639xxxxxxxxx">
-                        </mat-form-field>
-                        <mat-form-field appearance="outline" style="width: 49%;">
-                            <mat-label>City</mat-label>
-                            <input matInput placeholder="Metro Manila">
-                        </mat-form-field>
-                        <mat-form-field appearance="outline" style="width: 100%;">
-                            <mat-label>Message</mat-label>
-                            <textarea matInput placeholder="Enter message"></textarea>
-                        </mat-form-field>
-                        <button class="btn btn-round btn-primary">Send Message<img class="mail" src="../../assets/img/mail.png"></button>
+                        <form autocomplete="off" [formGroup]="feedback" (ngSubmit)="feedbackSubmit()">
+                            <mat-form-field appearance="outline" style="width: 49%; margin-right: 2%;">
+                                <mat-label>Name</mat-label>
+                                <input matInput placeholder="Juan Dela Cruz" formControlName="name">
+                            </mat-form-field>
+                            <mat-form-field appearance="outline" style="width: 49%;">
+                                <mat-label>Email</mat-label>
+                                <input matInput placeholder="juan.dela.cruz@gmail.com" formControlName="email">
+                            </mat-form-field>
+                            <mat-form-field appearance="outline" style="width: 49%; margin-right: 2%;">
+                                <mat-label>Mobile Number</mat-label>
+                                <input matInput placeholder="+639xxxxxxxxx" formControlName="mobileNumber">
+                            </mat-form-field>
+                            <mat-form-field appearance="outline" style="width: 49%;">
+                                <mat-label>City</mat-label>
+                                <input matInput placeholder="Metro Manila" formControlName="city">
+                            </mat-form-field>
+                            <mat-form-field appearance="outline" style="width: 100%;">
+                                <mat-label>Message</mat-label>
+                                <textarea matInput placeholder="Enter message" formControlName="message"></textarea>
+                            </mat-form-field>
+                            <button class="btn btn-round btn-primary" type="submit">Send Message<img class="mail"
+                                    src="../../assets/img/mail.png"></button>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -57,35 +60,38 @@
                         <p>Don't hesitate to let us know if you want to learn a new topic with us. Let us know what you
                             have in
                             mind and we'll reach out to you.</p>
-                        <mat-form-field appearance="outline" style="width: 32%; margin-right: 2%;">
-                            <mat-label>Name</mat-label>
-                            <input matInput placeholder="Placeholder">
-                        </mat-form-field>
-                        <mat-form-field appearance="outline" style="width: 32%; margin-right: 2%;">
-                            <mat-label>Email</mat-label>
-                            <input matInput placeholder="Placeholder">
-                        </mat-form-field>
-                        <mat-form-field appearance="outline" style="width: 32%;">
-                            <mat-label>Mobile Number</mat-label>
-                            <input matInput placeholder="Placeholder">
-                        </mat-form-field>
-                        <mat-form-field appearance="outline" style="width: 32%; margin-right: 2%;">
-                            <mat-label>Name</mat-label>
-                            <input matInput placeholder="Placeholder">
-                        </mat-form-field>
-                        <mat-form-field appearance="outline" style="width: 32%; margin-right: 2%;">
-                            <mat-label>Software Category</mat-label>
-                            <input matInput placeholder="Placeholder">
-                        </mat-form-field>
-                        <mat-form-field appearance="outline" style="width: 32%;">
-                            <mat-label>Software Needed</mat-label>
-                            <input matInput placeholder="Placeholder">
-                        </mat-form-field>
-                        <mat-form-field appearance="outline" style="width: 100%;">
-                            <mat-label>Message</mat-label>
-                            <textarea matInput placeholder="Enter message"></textarea>
-                        </mat-form-field>
-                        <button class="btn btn-round btn-primary">Suggest Course <img class="mail" src="../../assets/img/mail.png"></button>
+                        <form autocomplete="off" [formGroup]="suggestion" (ngSubmit)="suggestionSubmit()">
+                            <mat-form-field appearance="outline" style="width: 32%; margin-right: 2%;">
+                                <mat-label>Name</mat-label>
+                                <input matInput placeholder="Juan Dela Cruz" formControlName="name">
+                            </mat-form-field>
+                            <mat-form-field appearance="outline" style="width: 32%; margin-right: 2%;">
+                                <mat-label>Email</mat-label>
+                                <input matInput placeholder="juan.dela.cruz@gmail.com" formControlName="email">
+                            </mat-form-field>
+                            <mat-form-field appearance="outline" style="width: 32%;">
+                                <mat-label>Mobile Number</mat-label>
+                                <input matInput placeholder="+639xxxxxxxxx" formControlName="mobileNumber">
+                            </mat-form-field>
+                            <mat-form-field appearance="outline" style="width: 32%; margin-right: 2%;">
+                                <mat-label>City</mat-label>
+                                <input matInput placeholder="Metro Manila" formControlName="city">
+                            </mat-form-field>
+                            <mat-form-field appearance="outline" style="width: 32%; margin-right: 2%;">
+                                <mat-label>Topic</mat-label>
+                                <input matInput placeholder="Java Programming" formControlName="topic">
+                            </mat-form-field>
+                            <mat-form-field appearance="outline" style="width: 32%;">
+                                <mat-label>Software Needed</mat-label>
+                                <input matInput placeholder="Netbeans" formControlName="software">
+                            </mat-form-field>
+                            <mat-form-field appearance="outline" style="width: 100%;">
+                                <mat-label>Message</mat-label>
+                                <textarea matInput placeholder="Enter message" formControlName="message"></textarea>
+                            </mat-form-field>
+                            <button class="btn btn-round btn-primary" type="submit">Suggest Course <img class="mail"
+                                    src="../../assets/img/mail.png"></button>
+                        </form>
                     </div>
                 </div>
             </div>
