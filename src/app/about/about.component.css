@@ -71,7 +71,7 @@
     margin-top: 6%;
 }
 
-.footer.description {
+.col-lg-10 > .footer.description {
     font-family: 'Open Sans';
     font-size: 18px;
     line-height: 25px;
@@ -79,4 +79,10 @@
     letter-spacing: -0.03em;
     color: #666666;
     padding: 0 150px;
+}
+
+@media (max-width: 800px) {
+    .col-12 > .footer.description {
+        padding: 10px;
+    }
 }
