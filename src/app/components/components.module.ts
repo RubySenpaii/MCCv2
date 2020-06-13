@@ -9,6 +9,7 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { ProgramModalComponent } from './modal/program-modal/program-modal.component';
 import { InquiryModalComponent } from './modal/inquiry-modal/inquiry-modal.component';
 import { NotificationModalComponent } from './modal/notification-modal/notification-modal.component';
+import { LoadingComponent } from './modal/loading/loading.component';
 import {MatDialogModule} from '@angular/material/dialog';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
@@ -29,7 +30,8 @@ import { MatFormFieldModule } from '@angular/material/form-field';
     SidebarComponent,
     ProgramModalComponent,
     InquiryModalComponent,
-    NotificationModalComponent
+    NotificationModalComponent,
+    LoadingComponent,
   ],
   exports: [
     FooterComponent,

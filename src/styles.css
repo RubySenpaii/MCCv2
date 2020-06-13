@@ -159,3 +159,8 @@ button {
     color: white;
     background-color: #37bad7;
 }
+
+.transparent-modal .mat-dialog-container {
+    background-color: transparent;
+    box-shadow: none;
+}

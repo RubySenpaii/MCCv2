@@ -20,7 +20,7 @@
                             </mat-form-field>
                             <mat-form-field appearance="outline" style="width: 32%; margin-right: 2%;">
                                 <mat-label>Birthday</mat-label>
-                                <input matInput placeholder="juan.dela.cruz@gmail.com" formControlName="birthday">
+                                <input matInput formControlName="birthday" type="date">
                             </mat-form-field>
                             <mat-form-field appearance="outline" style="width: 32%;">
                                 <mat-label>Mobile Number</mat-label>
@@ -66,7 +66,7 @@
                             </mat-radio-group><br>
                             <mat-form-field appearance="outline" style="width: 32%; margin-right: 2%;" *ngIf="enrollment.value.paymentOption == 'card'">
                                 <mat-label>Card Number</mat-label>
-                                <input matInput placeholder="5214632598547568" formControlName="cardNumber">
+                                <input matInput placeholder="5214632598547568" formControlName="cardNumber" [errorStateMatcher]="cardVal">
                             </mat-form-field>
                             <mat-form-field appearance="outline" style="width: 120px; margin-right: 2%;" *ngIf="enrollment.value.paymentOption == 'card'">
                                 <mat-label>Expiration</mat-label>
